@@ -138,4 +138,29 @@ class Bling extends EndpointBase
     {
         return new Repositories\FormasPagamentos($this->getApiClient());
     }
+    public function contratos(): Repositories\BlingContratos
+    {
+        return new Repositories\BlingContratos($this->getApiClient());
+    }
+
+    public function nfse(): Repositories\BlingNfse
+    {
+        return new Repositories\BlingNfse($this->getApiClient());
+    }
+
+    public function nfe(): Repositories\BlingNfe
+    {
+        return new Repositories\BlingNfe($this->getApiClient());
+    }
+
+    public function contasContabeis(): Repositories\BlingContasContabeis
+    {
+        return new Repositories\BlingContasContabeis($this->getApiClient());
+    }
+
+    public function categoriasReceitasDespesas(): Repositories\BlingCategoriasReceitasDespesas
+    {
+        return new Repositories\BlingCategoriasReceitasDespesas($this->getApiClient());
+    }
+    
 }
