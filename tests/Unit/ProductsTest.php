@@ -3,7 +3,7 @@
 namespace Unit;
 
 use Codeception\Attribute\After;
-use Prhost\Bling\Classes\Collection;
+use Saldanhakun\Bling\Classes\Collection;
 use Tests\Unit\TestCaseBase;
 
 class ProductsTest extends TestCaseBase

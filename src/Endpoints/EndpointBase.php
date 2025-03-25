@@ -1,9 +1,9 @@
 <?php
 
-namespace Prhost\Bling\Endpoints;
+namespace Saldanhakun\Bling\Endpoints;
 
-use Prhost\Bling\Client\ApiClient;
-use Prhost\Bling\Client\Response;
+use Saldanhakun\Bling\Client\ApiClient;
+use Saldanhakun\Bling\Client\Response;
 
 abstract class EndpointBase
 {

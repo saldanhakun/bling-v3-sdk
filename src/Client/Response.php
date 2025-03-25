@@ -1,6 +1,6 @@
 <?php
 
-namespace Prhost\Bling\Client;
+namespace Saldanhakun\Bling\Client;
 
 
 class Response extends \GuzzleHttp\Psr7\Response

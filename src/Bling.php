@@ -1,8 +1,8 @@
 <?php
 
-namespace Prhost\Bling;
+namespace Saldanhakun\Bling;
 
-use Prhost\Bling\Endpoints\EndpointBase;
+use Saldanhakun\Bling\Endpoints\EndpointBase;
 
 class Bling extends EndpointBase
 {

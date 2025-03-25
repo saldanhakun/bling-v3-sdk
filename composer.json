@@ -1,7 +1,7 @@
 {
-    "name": "prhost/bling-v3-sdk",
+    "name": "saldanhakun/bling-v3-sdk",
     "description": "SDK PHP de integração com o Bling v3",
-    "homepage": "https://github.com/prhost/bling-v3-sdk",
+    "homepage": "https://github.com/saldanhakun/bling-v3-sdk",
     "license": "MIT",
     "keywords": [
         "sdk",
@@ -11,6 +11,7 @@
         "v3"
     ],
     "authors": [
+        { "name": "Marcelo Saldanha", "email": "saldanha@uttara.com.br", "role": "Developer" },
         {
             "name": "Kallef Alexandre",
             "email": "kallef@orbitaldev.com.br",
@@ -18,9 +19,8 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.0",
         "ext-json": "*",
-        "nesbot/carbon": "^2.72",
         "guzzlehttp/guzzle": "^7.8"
     },
     "require-dev": {
@@ -34,7 +34,7 @@
     "minimum-stability":"stable",
     "autoload": {
         "psr-4": {
-            "Prhost\\Bling\\": "src/",
+            "Saldanhakun\\Bling\\": "src/",
             "Tests\\": "tests/"
         }
     }

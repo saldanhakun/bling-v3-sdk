@@ -1,9 +1,9 @@
 <?php
 
-namespace Prhost\Bling\Repositories;
+namespace Saldanhakun\Bling\Repositories;
 
-use Prhost\Bling\Classes\Collection;
-use Prhost\Bling\Repositories\Traits\CrudRepository;
+use Saldanhakun\Bling\Classes\Collection;
+use Saldanhakun\Bling\Repositories\Traits\CrudRepository;
 
 class SituacoesModulos extends BaseRepository
 {

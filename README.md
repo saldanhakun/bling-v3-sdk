@@ -1,7 +1,5 @@
 # Bling v3 SDK
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/prhost/bling-v3-sdk.svg?style=flat-square)](https://packagist.org/packages/prhost/bling-v3-sdk)
-[![Total Downloads](https://img.shields.io/packagist/dt/prhost/bling-v3-sdk.svg?style=flat-square)](https://packagist.org/packages/prhost/bling-v3-sdk)
 
 ---
 Integração com a API do Bling ERP v3
@@ -11,7 +9,7 @@ Integração com a API do Bling ERP v3
 Você pode instalar o pacote via composer:
 
 ```bash
-composer require prhost/bling-v3-sdk
+composer require saldanhakun/bling-v3-sdk
 ```
 
 ## Autenticação
@@ -20,7 +18,7 @@ composer require prhost/bling-v3-sdk
 
 ```php
 
-use Prhost\Bling\Bling;
+use Saldanhakun\Bling\Bling;
 
 // Instancia o objeto
 $bling = new Bling(
@@ -150,6 +148,7 @@ php vendor/bin/codecept run
 ## Créditos
 
 - [Kallef Alexandre](https://github.com/prhost)
+- [Marcelo Saldanha](https://www.marcelosaldanha.com.br/)
 
 ## Licença
 

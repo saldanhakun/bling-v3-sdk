@@ -1,8 +1,8 @@
 <?php
 
-namespace Prhost\Bling\Repositories;
+namespace Saldanhakun\Bling\Repositories;
 
-use Prhost\Bling\Repositories\Traits\CrudRepository;
+use Saldanhakun\Bling\Repositories\Traits\CrudRepository;
 
 class ContatosTipos extends BaseRepository
 {

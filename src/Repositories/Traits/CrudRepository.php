@@ -1,8 +1,8 @@
 <?php
 
-namespace Prhost\Bling\Repositories\Traits;
+namespace Saldanhakun\Bling\Repositories\Traits;
 
-use Prhost\Bling\Classes\Collection;
+use Saldanhakun\Bling\Classes\Collection;
 
 trait CrudRepository
 {

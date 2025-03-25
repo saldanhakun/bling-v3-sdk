@@ -1,12 +1,12 @@
 <?php
 
-namespace Prhost\Bling\Client;
+namespace Saldanhakun\Bling\Client;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
-use Prhost\Bling\Exceptions\ApiException;
+use Saldanhakun\Bling\Exceptions\ApiException;
 use Psr\Http\Message\ResponseInterface;
 
 class ApiClient extends Client

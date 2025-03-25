@@ -1,6 +1,6 @@
 <?php
 
-namespace Prhost\Bling\Repositories;
+namespace Saldanhakun\Bling\Repositories;
 
 class Nfce extends BaseRepository
 {
