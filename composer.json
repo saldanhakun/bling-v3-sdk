@@ -21,15 +21,15 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^7.8"
+        "guzzlehttp/guzzle": "@stable"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.20",
-        "friendsofphp/php-cs-fixer": "^3.0",
-        "codeception/codeception": "^5.0",
-        "codeception/module-phpbrowser": "*",
-        "codeception/module-asserts": "^3.0",
-        "vlucas/phpdotenv": "^5.6"
+        "fakerphp/faker": "^@stable",
+        "friendsofphp/php-cs-fixer": "@stable",
+        "codeception/codeception": "@stable",
+        "codeception/module-phpbrowser": "@stable",
+        "codeception/module-asserts": "@stable",
+        "vlucas/phpdotenv": "@stable"
     },
     "minimum-stability":"stable",
     "autoload": {
